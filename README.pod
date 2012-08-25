@@ -2,4 +2,9 @@
 
 =head1 CRESCENDO CMS TOOLKIT
 
+=head1 Database setup
+
+    cd web/db
+    psql template1 -f schema.sql
+
 =cut
