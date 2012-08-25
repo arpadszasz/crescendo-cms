@@ -1,10 +1,37 @@
 =pod
 
+=encoding utf-8
+
 =head1 CRESCENDO CMS TOOLKIT
+
+=head1 Dependencies
+
+Software used in this project:
+
+=over
+
+=item perl 5.10.1
+
+=item DBIx::Class
+
+=item DBIx::Class::PassphraseColumn
+
+=item Postgresql
+
+=back
 
 =head1 Database setup
 
     cd web/db
     psql template1 -f schema.sql
+
+
+=head1 Authors
+
+=over
+
+=item Árpád Szász <arpad.szasz@plenum.ro>
+
+=back
 
 =cut
