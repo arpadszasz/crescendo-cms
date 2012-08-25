@@ -1,4 +1,4 @@
-package Crescendo::Model::Schema::Result::Account;
+package Crescendo::Model::Schema::Result::Spec;
 
 use 5.10.1;
 use utf8;

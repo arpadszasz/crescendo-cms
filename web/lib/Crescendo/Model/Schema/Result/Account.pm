@@ -7,7 +7,7 @@ use Moose;
 
 extends 'DBIx::Class::Core';
 
-__PACKAGE__->load_components(q<PassphraseColumn InflateColumn::DateTime>);
+__PACKAGE__->load_components(qw<PassphraseColumn>);
 
 __PACKAGE__->table('account');
 
