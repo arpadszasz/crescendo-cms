@@ -16,6 +16,14 @@ Software used in this project:
 
 =item DBIx::Class::PassphraseColumn
 
+=item IO::Prompter
+
+=item File::Slurp
+
+=item App::Genpass
+
+=item JSON
+
 =item Postgresql
 
 =back
@@ -24,6 +32,11 @@ Software used in this project:
 
     cd web/db
     psql template1 -f schema.sql
+
+=head1 User management
+
+    cd web/tools
+    perl cms-user-management.pl ../etc/template.cfg
 
 
 =head1 Authors
