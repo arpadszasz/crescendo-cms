@@ -1,0 +1,7 @@
+tmp/*
+.sw?
+*.sw?
+.svn
+.~lock*#
+!.gitignore
+!.keep
