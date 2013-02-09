@@ -1,0 +1,27 @@
+% layout 'admin';
+<h1>Welcome to Crescendo CMS setup!</h1>
+<h2>Step 1: Database settings</h2>
+<form action="/admin/setup/do-step-1" method="post">
+    <div class="form_row">
+        <label for="db_type">Database type:</label>
+        <select id="db_type" name="db_type">
+            <option value=""></option>
+            <option value="mysql">MySQL</option>
+        </select>
+    </div>
+    <div class="form_row">
+        <label for="db_host">Host:</label>
+        <input type="text" id="db_host" name="db_host" />
+    </div>
+    <div class="form_row">
+        <label for="db_user">Username:</label>
+        <input type="text" id="db_user" name="db_user" />
+    </div>
+    <div class="form_row">
+        <label for="db_password">Password:</label>
+        <input type="password" id="db_password" name="db_password" />
+    </div>
+    <div class="form_row">
+        <input type="submit" value="Next step" />
+    </div>
+</form>
