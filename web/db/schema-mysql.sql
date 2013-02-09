@@ -4,7 +4,7 @@ USE crescendo_cms;
 SET NAMES utf8;
 
 DROP TABLE IF EXISTS `csnd_user`;
-CREATE TABLE `categories` (
+CREATE TABLE `csnd_user` (
     `id`                INT NOT NULL AUTO_INCREMENT,
     `username`          VARCHAR(64) NOT NULL,
     `password`          VARCHAR(128) NOT NULL,
